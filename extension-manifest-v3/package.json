@@ -51,6 +51,7 @@
     "hybrids": "^8.1.13",
     "idb": "^7.1.1",
     "lodash-es": "^4.17.21",
+    "ohttp-js": "^0.1.0",
     "tldts-experimental": "^5.7.66"
   },
   "webExt": {

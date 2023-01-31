@@ -1,8 +1,16 @@
 diff --git a/node_modules/vite/dist/node/chunks/dep-5e7f419b.js b/node_modules/vite/dist/node/chunks/dep-5e7f419b.js
-index ff6c927..44c765f 100644
+index ff6c927..a18afb2 100644
 --- a/node_modules/vite/dist/node/chunks/dep-5e7f419b.js
 +++ b/node_modules/vite/dist/node/chunks/dep-5e7f419b.js
-@@ -43780,7 +43780,6 @@ function resolveChokidarOptions(config, options) {
+@@ -43255,6 +43255,7 @@ function toRelativePath(filename, importer) {
+  * the async chunk itself.
+  */
+ function detectScriptRel() {
++		if (typeof document === 'undefined') return 'preload';
+     const relList = document.createElement('link').relList;
+     return relList && relList.supports && relList.supports('modulepreload')
+         ? 'modulepreload'
+@@ -43780,7 +43781,6 @@ function resolveChokidarOptions(config, options) {
      const resolvedWatchOptions = {
          ignored: [
              '**/.git/**',

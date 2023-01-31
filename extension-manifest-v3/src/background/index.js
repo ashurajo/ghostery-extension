@@ -16,3 +16,4 @@ import './trackers-preview.js';
 import './telemetry.js';
 import './autoconsent.js';
 import './reporting.js';
+import './ohttp.js';
