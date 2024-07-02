@@ -50,26 +50,30 @@ class WebViewUserContentHelper: NSObject, WKScriptMessageHandler {
     }
 
     func userContentController(_ userContentController: WKUserContentController, didReceive message: WKScriptMessage) {
-        if (message.body as! String == "open-support") {
-            openInWebView(URL(string: "https://www.ghostery.com/blog/how-to-install-extensions-in-safari")!)
-        }
+        #if os(iOS)
+            if (message.body as! String == "install") {
+                UIApplication.shared.open(URL(string: "itms-apps://itunes.apple.com/app/id6504861501?pt=126832414&ct=migration&mt=8")!)
+            }
 
-        if (message.body as! String == "open-subscriptions") {
-            openSubscriptions()
-        }
+            if (message.body as! String == "help") {
+                openInWebView(URL(string: "https://www.ghostery.com/blog/adblocker-safari-app-migration")!)
+            }
 
+            if (message.body as! String == "mail") {
+                UIApplication.shared.open(URL(string: "mailto:support@ghostery.com")!)
+            }
+        #endif
         #if os(macOS)
-            if (message.body as! String == "open-preferences") {
-                SFSafariApplication.showPreferencesForExtension(withIdentifier: extensionBundleIdentifier) { error in
-                    guard error == nil else {
-                        // Insert code to inform the user that something went wrong.
-                        return
-                    }
+            if (message.body as! String == "install") {
+                openInWebView(URL(string: "https://apps.apple.com/app/apple-store/id6504861501?pt=126832414&ct=migration&mt=8")!)
+            }
 
-                    DispatchQueue.main.async {
-                        NSApplication.shared.terminate(nil)
-                    }
-                }
+            if (message.body as! String == "help") {
+                openInWebView(URL(string: "https://www.ghostery.com/blog/adblocker-safari-app-migration")!)
+            }
+
+            if (message.body as! String == "mail") {
+                openInWebView(URL(string: "mailto:support@ghostery.com")!)
             }
         #endif
     }
@@ -80,21 +84,18 @@ class WebViewHelper: NSObject, WKNavigationDelegate {
         webView.evaluateJavaScript("""
             localize({
                 'Privacy Ad Blocker': '\(String(localized: "Privacy Ad Blocker"))',
-                'is a Safari Extension': '\(String(localized: "is a Safari Extension"))',
-                'To enable privacy protection, go to:': '\(String(localized: "To enable privacy protection, go to:"))',
-                'Settings': '\(String(localized: "Settings"))',
-                'Extensions': '\(String(localized: "Extensions"))',
-                'Extension is currently disabled. <br /> You can enable it in Safari Preferences.': '\(String(localized: "Extension is currently disabled. <br /> You can enable it in Safari Preferences."))',
-                'Open Safari Preferences': '\(String(localized: "Open Safari Preferences"))',
-                'You are protected': '\(String(localized: "You are protected"))',
-                'Enjoying Ghostery?': '\(String(localized: "Enjoying Ghostery?"))',
-                'Support what we do': '\(String(localized: "Support what we do"))',
-                'Subscribe now': '\(String(localized: "Subscribe now"))',
-                'Need help?': '\(String(localized: "Need help?"))',
-                'Here is a step-by-step tutorial': '\(String(localized: "Here is a step-by-step tutorial"))',
+                'The Ghostery App had&nbsp;to move homes': '\(String(localized: "The Ghostery App had&nbsp;to move homes"))',
+                'What you need to do:': '\(String(localized: "What you need to do:"))',
+                'Install the new Ghostery App': '\(String(localized: "Install the new Ghostery App"))',
+                'Install': '\(String(localized: "Install"))',
+                'Delete this app from your device': '\(String(localized: "Delete this app from your device"))',
+                'Enjoy Ghostery-grade protection': '\(String(localized: "Enjoy Ghostery-grade protection"))',
+                'Need more help?': '\(String(localized: "Need more help?"))',
+                'Read our blog post': '\(String(localized: "Read our blog post"))',
+                'Or message us at': '\(String(localized: "Or message us at"))',
             })
         """)
-        
+
         #if os(iOS)
             webView.evaluateJavaScript("show('ios')")
         #elseif os(macOS)

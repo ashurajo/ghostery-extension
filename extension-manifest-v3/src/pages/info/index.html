@@ -6,8 +6,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, user-scalable=no"
     />
-    <link rel="stylesheet" href="./Style.css" />
-    <script src="./Script.js" defer></script>
+    <script src="./index.js" type="module"></script>
   </head>
   <body>
     <main>
@@ -24,7 +23,13 @@
           <li>
             <div>
               <span data-i18n>Install the new Ghostery App</span>
-              <button id="install" class="button" data-i18n>Install</button>
+              <a
+                href="https://apps.apple.com/app/apple-store/id6504861501?pt=126832414&ct=migration&mt=8"
+                id="install"
+                class="button"
+                data-i18n
+                >Install</a
+              >
             </div>
           </li>
           <li>
@@ -39,12 +44,20 @@
 
       <section class="footer">
         <h2><span class="small" data-i18n>Need more help?</span></h2>
-        <button id="help" class="button outline" data-i18n>
+        <a
+          href="https://www.ghostery.com/blog/adblocker-safari-app-migration"
+          id="help"
+          class="button outline"
+          data-i18n
+          target="_blank"
+        >
           Read our blog post
-        </button>
+        </a>
         <p class="footer">
           <span data-i18n>Or message us at</span>
-          <a id="mail">support@ghostery.com</a>
+          <a id="mail" href="mailto:support@ghostery.com">
+            support@ghostery.com
+          </a>
         </p>
       </section>
     </main>

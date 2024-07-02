@@ -9,22 +9,17 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0
  */
 
-import './onboarding.js';
+chrome.browserAction.setBadgeText({ text: '!' });
 
-import './autoconsent.js';
-import './adblocker.js';
-import './dnr.js';
-import './paused.js';
-import './session.js';
-import './stats.js';
-import './serp.js';
+chrome.browserAction.onClicked.addListener(() => {
+  chrome.tabs.create({ url: chrome.runtime.getURL('pages/info/index.html') });
+});
 
-import './helpers.js';
-import './external.js';
+chrome.runtime.onMessage.addListener(() => {});
 
-import './telemetry.js';
-import './reporting/index.js';
+chrome.webNavigation.onCommitted.addListener(() => {
+  chrome.browserAction.setBadgeText({ text: '' });
+  chrome.browserAction.setBadgeText({ text: '!' });
+});
 
-import './devtools.js';
-import './custom-filters.js';
-import './exceptions.js';
+chrome.webNavigation.onBeforeNavigate.addListener(() => {});

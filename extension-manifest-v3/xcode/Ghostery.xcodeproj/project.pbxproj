@@ -82,6 +82,8 @@
 		B430752D27EB3AEC0042D537 /* GlowingArch.svg in Resources */ = {isa = PBXBuildFile; fileRef = B430752527EB3AEC0042D537 /* GlowingArch.svg */; };
 		B44AE7B327D21E7D00F19705 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = B44AE7B227D21E7D00F19705 /* Main.html */; };
 		B44AE7B427D21E7D00F19705 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = B44AE7B227D21E7D00F19705 /* Main.html */; };
+		B456A64E2C32F71E007D2F84 /* GhosteryIcon.svg in Resources */ = {isa = PBXBuildFile; fileRef = B456A64D2C32F71E007D2F84 /* GhosteryIcon.svg */; };
+		B456A64F2C32F71E007D2F84 /* GhosteryIcon.svg in Resources */ = {isa = PBXBuildFile; fileRef = B456A64D2C32F71E007D2F84 /* GhosteryIcon.svg */; };
 		B456D51C27E094E40038964E /* Safari.svg in Resources */ = {isa = PBXBuildFile; fileRef = B456D51827E094E30038964E /* Safari.svg */; };
 		B456D51D27E094E40038964E /* Safari.svg in Resources */ = {isa = PBXBuildFile; fileRef = B456D51827E094E30038964E /* Safari.svg */; };
 		B456D51E27E094E40038964E /* Settings.svg in Resources */ = {isa = PBXBuildFile; fileRef = B456D51927E094E30038964E /* Settings.svg */; };
@@ -90,34 +92,26 @@
 		B456D52127E094E40038964E /* Arrow.svg in Resources */ = {isa = PBXBuildFile; fileRef = B456D51A27E094E30038964E /* Arrow.svg */; };
 		B456D52227E094E40038964E /* Extensions.svg in Resources */ = {isa = PBXBuildFile; fileRef = B456D51B27E094E40038964E /* Extensions.svg */; };
 		B456D52327E094E40038964E /* Extensions.svg in Resources */ = {isa = PBXBuildFile; fileRef = B456D51B27E094E40038964E /* Extensions.svg */; };
+		B45818792C340E8B0079D9A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B45818772C340E8B0079D9A4 /* InfoPlist.strings */; };
+		B458187C2C340E8B0079D9A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B458187A2C340E8B0079D9A4 /* InfoPlist.strings */; };
 		B463BF722ADE91F00088B0F0 /* icons in Resources */ = {isa = PBXBuildFile; fileRef = B463BF712ADE91F00088B0F0 /* icons */; };
 		B463BF732ADE91F00088B0F0 /* icons in Resources */ = {isa = PBXBuildFile; fileRef = B463BF712ADE91F00088B0F0 /* icons */; };
 		B46514432987C3BD000E71F6 /* licenses.html in Resources */ = {isa = PBXBuildFile; fileRef = B46514422987C3BD000E71F6 /* licenses.html */; };
 		B46514442987C3BD000E71F6 /* licenses.html in Resources */ = {isa = PBXBuildFile; fileRef = B46514422987C3BD000E71F6 /* licenses.html */; };
-		B469CA8A27BE924D00408C43 /* node_modules in Resources */ = {isa = PBXBuildFile; fileRef = B469CA8227BE924D00408C43 /* node_modules */; };
-		B469CA8B27BE924D00408C43 /* node_modules in Resources */ = {isa = PBXBuildFile; fileRef = B469CA8227BE924D00408C43 /* node_modules */; };
 		B469CA8E27BE924D00408C43 /* background in Resources */ = {isa = PBXBuildFile; fileRef = B469CA8427BE924D00408C43 /* background */; };
 		B469CA8F27BE924D00408C43 /* background in Resources */ = {isa = PBXBuildFile; fileRef = B469CA8427BE924D00408C43 /* background */; };
 		B469CA9027BE924D00408C43 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = B469CA8527BE924D00408C43 /* assets */; };
 		B469CA9127BE924D00408C43 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = B469CA8527BE924D00408C43 /* assets */; };
-		B469CA9227BE924D00408C43 /* content_scripts in Resources */ = {isa = PBXBuildFile; fileRef = B469CA8627BE924D00408C43 /* content_scripts */; };
-		B469CA9327BE924D00408C43 /* content_scripts in Resources */ = {isa = PBXBuildFile; fileRef = B469CA8627BE924D00408C43 /* content_scripts */; };
 		B469CA9427BE924D00408C43 /* pages in Resources */ = {isa = PBXBuildFile; fileRef = B469CA8727BE924D00408C43 /* pages */; };
 		B469CA9527BE924D00408C43 /* pages in Resources */ = {isa = PBXBuildFile; fileRef = B469CA8727BE924D00408C43 /* pages */; };
 		B469CA9627BE924D00408C43 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = B469CA8827BE924D00408C43 /* _locales */; };
 		B469CA9727BE924D00408C43 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = B469CA8827BE924D00408C43 /* _locales */; };
 		B469CA9B27BE949000408C43 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = B469CA9A27BE949000408C43 /* manifest.json */; };
 		B469CA9C27BE949000408C43 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = B469CA9A27BE949000408C43 /* manifest.json */; };
-		B479A074299266F300A25D8F /* utils in Resources */ = {isa = PBXBuildFile; fileRef = B479A073299266F300A25D8F /* utils */; };
-		B479A075299266F300A25D8F /* utils in Resources */ = {isa = PBXBuildFile; fileRef = B479A073299266F300A25D8F /* utils */; };
-		B4D49C7028045EFC00277CCA /* store in Resources */ = {isa = PBXBuildFile; fileRef = B4D49C6F28045EFC00277CCA /* store */; };
-		B4D49C7128045EFC00277CCA /* store in Resources */ = {isa = PBXBuildFile; fileRef = B4D49C6F28045EFC00277CCA /* store */; };
 		B4DA09B3283CEBAE0052F343 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B4DA09B6283CEBAE0052F343 /* Localizable.strings */; };
 		B4DA09B4283CEBAE0052F343 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B4DA09B6283CEBAE0052F343 /* Localizable.strings */; };
 		B4FFD50227F73B830041049C /* rule_resources in Resources */ = {isa = PBXBuildFile; fileRef = B4FFD50127F73B820041049C /* rule_resources */; };
 		B4FFD50327F73B830041049C /* rule_resources in Resources */ = {isa = PBXBuildFile; fileRef = B4FFD50127F73B820041049C /* rule_resources */; };
-		CEC6DBCA292BE699001E9642 /* virtual in Resources */ = {isa = PBXBuildFile; fileRef = CEC6DBC9292BE699001E9642 /* virtual */; };
-		CEC6DBCB292BE699001E9642 /* virtual in Resources */ = {isa = PBXBuildFile; fileRef = CEC6DBC9292BE699001E9642 /* virtual */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -212,25 +206,24 @@
 		B430752427EB3AEC0042D537 /* GreenCheck.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GreenCheck.svg; sourceTree = "<group>"; };
 		B430752527EB3AEC0042D537 /* GlowingArch.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GlowingArch.svg; sourceTree = "<group>"; };
 		B44AE7B227D21E7D00F19705 /* Main.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Main.html; sourceTree = "<group>"; };
+		B456A64D2C32F71E007D2F84 /* GhosteryIcon.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GhosteryIcon.svg; sourceTree = "<group>"; };
 		B456D51827E094E30038964E /* Safari.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Safari.svg; sourceTree = "<group>"; };
 		B456D51927E094E30038964E /* Settings.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Settings.svg; sourceTree = "<group>"; };
 		B456D51A27E094E30038964E /* Arrow.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Arrow.svg; sourceTree = "<group>"; };
 		B456D51B27E094E40038964E /* Extensions.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Extensions.svg; sourceTree = "<group>"; };
+		B45818782C340E8B0079D9A4 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B458187B2C340E8B0079D9A4 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B458187D2C340E8B0079D9A4 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Localizable.strings; sourceTree = "<group>"; };
 		B463BF712ADE91F00088B0F0 /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icons; path = ../../dist/icons; sourceTree = "<group>"; };
 		B46514422987C3BD000E71F6 /* licenses.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = licenses.html; path = ../../dist/licenses.html; sourceTree = "<group>"; };
-		B469CA8227BE924D00408C43 /* node_modules */ = {isa = PBXFileReference; lastKnownFileType = folder; name = node_modules; path = ../../dist/node_modules; sourceTree = "<group>"; };
 		B469CA8427BE924D00408C43 /* background */ = {isa = PBXFileReference; lastKnownFileType = folder; name = background; path = ../../dist/background; sourceTree = "<group>"; };
 		B469CA8527BE924D00408C43 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = assets; path = ../../dist/assets; sourceTree = "<group>"; };
-		B469CA8627BE924D00408C43 /* content_scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = content_scripts; path = ../../dist/content_scripts; sourceTree = "<group>"; };
 		B469CA8727BE924D00408C43 /* pages */ = {isa = PBXFileReference; lastKnownFileType = folder; name = pages; path = ../../dist/pages; sourceTree = "<group>"; };
 		B469CA8827BE924D00408C43 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _locales; path = ../../dist/_locales; sourceTree = "<group>"; };
 		B469CA9A27BE949000408C43 /* manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = manifest.json; path = ../../dist/manifest.json; sourceTree = "<group>"; };
-		B479A073299266F300A25D8F /* utils */ = {isa = PBXFileReference; lastKnownFileType = folder; name = utils; path = ../../dist/utils; sourceTree = "<group>"; };
-		B4D49C6F28045EFC00277CCA /* store */ = {isa = PBXFileReference; lastKnownFileType = folder; name = store; path = ../../dist/store; sourceTree = "<group>"; };
 		B4DA09B5283CEBAE0052F343 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		B4EBAD7E2A1DFA6C006A7D73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B4FFD50127F73B820041049C /* rule_resources */ = {isa = PBXFileReference; lastKnownFileType = folder; name = rule_resources; path = ../../dist/rule_resources; sourceTree = "<group>"; };
-		CEC6DBC9292BE699001E9642 /* virtual */ = {isa = PBXFileReference; lastKnownFileType = folder; name = virtual; path = ../../dist/virtual; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -385,6 +378,7 @@
 		468E427D2701F849008B5792 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B456A64D2C32F71E007D2F84 /* GhosteryIcon.svg */,
 				B423DDAB29DEDC1D0004B63E /* RobotoCondensed-Bold.ttf */,
 				B423DDAC29DEDC1D0004B63E /* RobotoCondensed-Regular.ttf */,
 				B430752327EB3AEC0042D537 /* ArrowRight.svg */,
@@ -427,6 +421,7 @@
 			children = (
 				465E356127551D600032B8D2 /* GhosteryApp.swift */,
 				468E42982701F84A008B5792 /* Info.plist */,
+				B45818772C340E8B0079D9A4 /* InfoPlist.strings */,
 				468E42922701F84A008B5792 /* LaunchScreen.storyboard */,
 			);
 			path = "iOS (App)";
@@ -437,6 +432,7 @@
 			children = (
 				468E429F2701F84A008B5792 /* GhosteryApp.swift */,
 				468E42A42701F84A008B5792 /* Info.plist */,
+				B458187A2C340E8B0079D9A4 /* InfoPlist.strings */,
 				468E42A52701F84A008B5792 /* Ghostery – Privacy Ad Blocker.entitlements */,
 			);
 			path = "macOS (App)";
@@ -463,17 +459,12 @@
 			isa = PBXGroup;
 			children = (
 				B463BF712ADE91F00088B0F0 /* icons */,
-				B479A073299266F300A25D8F /* utils */,
 				B46514422987C3BD000E71F6 /* licenses.html */,
-				CEC6DBC9292BE699001E9642 /* virtual */,
-				B4D49C6F28045EFC00277CCA /* store */,
 				B4FFD50127F73B820041049C /* rule_resources */,
 				B469CA9A27BE949000408C43 /* manifest.json */,
 				B469CA8827BE924D00408C43 /* _locales */,
 				B469CA8527BE924D00408C43 /* assets */,
 				B469CA8427BE924D00408C43 /* background */,
-				B469CA8627BE924D00408C43 /* content_scripts */,
-				B469CA8227BE924D00408C43 /* node_modules */,
 				B469CA8727BE924D00408C43 /* pages */,
 			);
 			name = common;
@@ -594,6 +585,7 @@
 			knownRegions = (
 				en,
 				Base,
+				pl,
 			);
 			mainGroup = 468E42772701F848008B5792;
 			packageReferences = (
@@ -620,11 +612,13 @@
 				B430752627EB3AEC0042D537 /* GhosteryLogo.svg in Resources */,
 				465E357227564A670032B8D2 /* Products.plist in Resources */,
 				468E42942701F84A008B5792 /* LaunchScreen.storyboard in Resources */,
+				B456A64E2C32F71E007D2F84 /* GhosteryIcon.svg in Resources */,
 				B430752A27EB3AEC0042D537 /* GreenCheck.svg in Resources */,
 				468E42C12701F84A008B5792 /* Script.js in Resources */,
 				B456D52027E094E40038964E /* Arrow.svg in Resources */,
 				468E42C52701F84A008B5792 /* Assets.xcassets in Resources */,
 				B44AE7B327D21E7D00F19705 /* Main.html in Resources */,
+				B45818792C340E8B0079D9A4 /* InfoPlist.strings in Resources */,
 				B456D52227E094E40038964E /* Extensions.svg in Resources */,
 				B423DDAD29DEDC1D0004B63E /* RobotoCondensed-Bold.ttf in Resources */,
 				B4DA09B3283CEBAE0052F343 /* Localizable.strings in Resources */,
@@ -647,6 +641,7 @@
 				B430752B27EB3AEC0042D537 /* GreenCheck.svg in Resources */,
 				B430752D27EB3AEC0042D537 /* GlowingArch.svg in Resources */,
 				B423DDAE29DEDC1D0004B63E /* RobotoCondensed-Bold.ttf in Resources */,
+				B458187C2C340E8B0079D9A4 /* InfoPlist.strings in Resources */,
 				B456D52127E094E40038964E /* Arrow.svg in Resources */,
 				B44AE7B427D21E7D00F19705 /* Main.html in Resources */,
 				B456D51F27E094E40038964E /* Settings.svg in Resources */,
@@ -654,6 +649,7 @@
 				468E42C22701F84A008B5792 /* Script.js in Resources */,
 				B430752927EB3AEC0042D537 /* ArrowRight.svg in Resources */,
 				465E357327564A670032B8D2 /* Products.plist in Resources */,
+				B456A64F2C32F71E007D2F84 /* GhosteryIcon.svg in Resources */,
 				B423DDB029DEDC1D0004B63E /* RobotoCondensed-Regular.ttf in Resources */,
 				468E42C62701F84A008B5792 /* Assets.xcassets in Resources */,
 			);
@@ -668,13 +664,8 @@
 				B469CA9627BE924D00408C43 /* _locales in Resources */,
 				B46514432987C3BD000E71F6 /* licenses.html in Resources */,
 				B4FFD50227F73B830041049C /* rule_resources in Resources */,
-				CEC6DBCA292BE699001E9642 /* virtual in Resources */,
-				B479A074299266F300A25D8F /* utils in Resources */,
 				B469CA9B27BE949000408C43 /* manifest.json in Resources */,
-				B469CA8A27BE924D00408C43 /* node_modules in Resources */,
 				B469CA8E27BE924D00408C43 /* background in Resources */,
-				B4D49C7028045EFC00277CCA /* store in Resources */,
-				B469CA9227BE924D00408C43 /* content_scripts in Resources */,
 				B463BF722ADE91F00088B0F0 /* icons in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -688,13 +679,8 @@
 				B469CA9727BE924D00408C43 /* _locales in Resources */,
 				B46514442987C3BD000E71F6 /* licenses.html in Resources */,
 				B4FFD50327F73B830041049C /* rule_resources in Resources */,
-				CEC6DBCB292BE699001E9642 /* virtual in Resources */,
-				B479A075299266F300A25D8F /* utils in Resources */,
 				B469CA9C27BE949000408C43 /* manifest.json in Resources */,
-				B469CA8B27BE924D00408C43 /* node_modules in Resources */,
 				B469CA8F27BE924D00408C43 /* background in Resources */,
-				B4D49C7128045EFC00277CCA /* store in Resources */,
-				B469CA9327BE924D00408C43 /* content_scripts in Resources */,
 				B463BF732ADE91F00088B0F0 /* icons in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -841,10 +827,27 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		B45818772C340E8B0079D9A4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B45818782C340E8B0079D9A4 /* pl */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B458187A2C340E8B0079D9A4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B458187B2C340E8B0079D9A4 /* pl */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		B4DA09B6283CEBAE0052F343 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				B4DA09B5283CEBAE0052F343 /* en */,
+				B458187D2C340E8B0079D9A4 /* pl */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -886,7 +889,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 178;
+				CURRENT_PROJECT_VERSION = 179;
 				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -905,7 +908,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MARKETING_VERSION = 10.3.11;
+				MARKETING_VERSION = 10.3.12;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -948,7 +951,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 178;
+				CURRENT_PROJECT_VERSION = 179;
 				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -961,7 +964,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MARKETING_VERSION = 10.3.11;
+				MARKETING_VERSION = 10.3.12;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -1043,7 +1046,7 @@
 				DEVELOPMENT_TEAM = HPY23A294X;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Ghostery – Privacy Ad Blocker";
+				INFOPLIST_KEY_CFBundleDisplayName = "Uninstall Ghostery";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -1080,7 +1083,7 @@
 				DEVELOPMENT_TEAM = HPY23A294X;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Ghostery – Privacy Ad Blocker";
+				INFOPLIST_KEY_CFBundleDisplayName = "Uninstall Ghostery";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -1193,7 +1196,7 @@
 				ENABLE_HARDENED_RUNTIME = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "macOS (App)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Ghostery – Privacy Ad Blocker";
+				INFOPLIST_KEY_CFBundleDisplayName = "Uninstall Ghostery";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -1232,7 +1235,7 @@
 				ENABLE_HARDENED_RUNTIME = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "macOS (App)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Ghostery – Privacy Ad Blocker";
+				INFOPLIST_KEY_CFBundleDisplayName = "Uninstall Ghostery";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;

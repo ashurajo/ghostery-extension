@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
   "author": "Ghostery",
-  "name": "Ghostery",
-  "short_name": "Ghostery",
+  "name": "Uninstall Ghostery",
+  "short_name": "Uninstall Ghostery",
   "default_locale": "en",
   "description": "Block Ads, Trackers and Annoyances",
   "permissions": [
@@ -30,95 +30,14 @@
       "64": "/icons/icon-64.png",
       "128": "/icons/icon-128.png"
     },
-    "default_title": "Ghostery",
-    "default_popup": "pages/panel/index.html"
-  },
-  "options_ui": {
-    "page": "pages/settings/index.html",
-    "open_in_tab": true
+    "default_title": "Ghostery"
   },
   "background": {
     "page": "background/index.html",
     "persistent": false
   },
-  "declarative_net_request" : {
-    "rule_resources" : [
-      {
-        "id": "ads",
-        "enabled": false,
-        "path": "rule_resources/dnr-safari.json"
-      },
-      {
-        "id": "trackerdb",
-        "enabled": false,
-        "path": "rule_resources/dnr-trackerdb-safari.json"
-      },
-      {
-        "id": "fixes",
-        "enabled": false,
-        "path": "rule_resources/dnr-fixes-safari.json"
-      }
-    ]
-  },
-  "content_scripts": [
-    {
-      "matches": ["http://*/*", "https://*/*"],
-      "run_at": "document_start",
-      "js": [
-        "content_scripts/whotracksme/index.js"
-      ]
-    },
-    {
-      "matches": ["http://*/*", "https://*/*"],
-      "run_at": "document_start",
-      "js": [
-        "content_scripts/adblocker.js"
-      ],
-      "all_frames": true
-    },
-    {
-      "matches": ["http://*/*", "https://*/*"],
-      "run_at": "document_start",
-      "js": [
-        "content_scripts/adblocker-scriptlets.js"
-      ]
-    },
-    {
-      "matches": ["http://*/*", "https://*/*"],
-      "run_at": "document_start",
-      "js": [
-        "content_scripts/autoconsent.js"
-      ],
-      "all_frames": true
-    },
-    {
-      "matches": ["http://*/*", "https://*/*"],
-      "run_at": "document_start",
-      "js": [
-        "content_scripts/iframe.js"
-      ]
-    },
-    {
-      "matches": ["http://*/*", "https://*/*"],
-      "run_at": "document_start",
-      "js": [
-        "content_scripts/whotracksme/reporting.js"
-      ]
-    },
-    {
-      "matches": ["*://www.youtube.com/*"],
-      "run_at": "document_start",
-			"js": ["content_scripts/youtube.js"]
-		}
-  ],
   "web_accessible_resources": [
-    "content_scripts/whotracksme/ghostery-whotracksme.js",
-    "content_scripts/trackers-preview.js",
-    "content_scripts/prevent-serp-tracking.js",
-    "pages/trackers-preview/index.html",
-    "pages/onboarding/index.html",
-    "pages/onboarding/iframe.html",
-    "pages/youtube/index.html"
+    "pages/info/index.html"
   ],
   "content_security_policy" : {},
   "browser_specific_settings": {
