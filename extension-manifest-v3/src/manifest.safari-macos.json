@@ -4,7 +4,7 @@
   "name": "Uninstall Ghostery",
   "short_name": "Uninstall Ghostery",
   "default_locale": "en",
-  "description": "Block Ads, Trackers and Annoyances",
+  "description": "Look for the current version of Ghostery on the Apple App Store. Blue Ghosty",
   "permissions": [
     "alarms",
     "cookies",
