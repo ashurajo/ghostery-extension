@@ -37,7 +37,7 @@ body {
   justify-content: center;
   padding: 0 10px;
   font-family: 'Roboto Condensed', -apple-system-short-body, sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   text-align: center;
   text-transform: uppercase;
   background: linear-gradient(162deg, #2f3136 10%, #0d1014 100%);
@@ -50,13 +50,10 @@ body:not(.platform-mac, .platform-ios) :is(.platform-mac, .platform-ios) {
 
 main {
   display: flex;
-  flex: 1 0 auto;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  max-height: 660px;
   max-width: 375px;
-  height: 100%;
 }
 
 h1,
@@ -72,14 +69,14 @@ img.logo {
 }
 
 h1 {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   color: white;
   margin-top: -20px;
 }
 
 h2 {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 400;
   color: white;
   max-width: 200px;
@@ -99,10 +96,9 @@ p.secondary {
 p.footer {
   color: rgba(255, 255, 255, 0.7);
   font-family: 'Roboto Condensed';
-  font-size: 18px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px;
   text-transform: none;
 }
 
@@ -113,7 +109,6 @@ p.footer a {
 
 ol {
   text-align: left;
-  margin-top: -8px;
 }
 
 li {
@@ -122,15 +117,19 @@ li {
 
 li > div {
   display: grid;
-  grid: auto / 1fr 120px;
+  grid: auto / 1fr 1fr;
   align-items: center;
-  justify-items: center;
   gap: 32px;
 }
 
 li div > span {
   flex: 1;
   max-width: 150px;
+}
+
+li div > span:only-child {
+  grid-column: span 2;
+  max-width: none;
 }
 
 li img {
@@ -149,7 +148,7 @@ button,
   background-color: #00aef0;
   color: white;
   font-family: inherit;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
@@ -159,7 +158,7 @@ button,
 button.outline {
   background: transparent url('./ArrowRight.svg') no-repeat right center;
   color: #00aef0;
-  font-size: 18px;
+  font-size: 16px;
   padding: 2px 30px 2px 0px;
 }
 
